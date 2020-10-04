@@ -1,0 +1,23 @@
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.app_header > h1{
+    font-size: 2rem;
+    color: #fc3c3c;
+}
+
+.app_dropdown{
+    background-color: white;
+}
+.app_dropdown_bgImg{
+    width: 20px;
+    height: 16px;
+    background-size: cover;
+}
+.app_dropdown_text{
+    margin-left: -30px;
+}

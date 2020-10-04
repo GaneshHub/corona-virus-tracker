@@ -1,0 +1,41 @@
+.app_stats{
+    display: flex;
+    justify-content: space-between;
+}
+.infobox{
+    flex: 1;
+}
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+.infobox_total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+.infobox_confirmed,
+.infobox_recovered,
+.infobox_deaths{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.infobox_confirmed{
+    color: #cc1034;
+}
+.infobox_recovered{
+    color: #7dd71d;
+}
+.infobox_deaths{
+    color: #fb4443;
+}
+.infobox_selected_confirmed{
+    border-top: 10px solid #cc1034;
+}
+.infobox_selected_recovered{
+    border-top: 10px solid #7dd71d;
+}
+.infobox_selected_deaths{
+    border-top: 10px solid #fb4443;
+}

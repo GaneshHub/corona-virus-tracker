@@ -1,0 +1,16 @@
+.graph_container {
+  margin-top: 10px;
+  height: 100%;
+}
+.lineGraph {
+  margin-top: 10px;
+  flex-grow: 1;
+}
+.graph_flag{
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  float: left;
+  margin-right: 5px;
+  margin-left: -10px;
+}
